@@ -13,7 +13,7 @@ int main(void) {
     int osc_width = screenWidth;
     int osc_height = screenHeight - 115;
 
-    gfx_open(screenWidth,screenHeight,"PSF_Font");
+    gfx_open(screenWidth,screenHeight,"PSF_Font renderer");
     Display_Set_WIDTH(screenWidth);
     Display_Set_HEIGHT(screenHeight);
     gfx_color(128,127,255);

@@ -22,7 +22,7 @@ int main(void) {
     // Встановлюємо прапорець для мультисемплінгу (покращення якості графіки)
     SetConfigFlags(FLAG_MSAA_4X_HINT);
 
-    InitWindow(screenWidth, screenHeight, "RasterFont");
+    InitWindow(screenWidth, screenHeight, "RasterFont renderer");
 
     SetTargetFPS(60);
 

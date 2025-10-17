@@ -8,7 +8,7 @@ int main(void) {
     const int screenWidth = 600;
     const int screenHeight = 240;
     // Ініціалізація графіки, кольорів тощо
-    gfx_open(screenWidth,screenHeight,"PSF_Font");
+    gfx_open(screenWidth,screenHeight,"RasterFont renderer");
     Display_Set_WIDTH(screenWidth);
     Display_Set_HEIGHT(screenHeight);
     gfx_color(128,127,255);

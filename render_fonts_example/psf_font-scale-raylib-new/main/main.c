@@ -26,7 +26,7 @@ int main(void) {
     // Встановлюємо прапорець для мультисемплінгу (покращення якості графіки)
     SetConfigFlags(FLAG_MSAA_4X_HINT);
 
-    InitWindow(screenWidth, screenHeight, "Raylib Oscilloscope with Trigger and Scaling");
+    InitWindow(screenWidth, screenHeight, "PSF_Font renderer");
 
     // Завантаження PSF шрифту (шлях до вашого файлу)
     psfFont = LoadPSFFont("fonts/Uni3-TerminusBold32x16.psf");
